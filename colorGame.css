@@ -1,0 +1,101 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Coming Soon", "Montserrat", "Avenir", cursive;
+
+
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	line-height: 1.1;
+	background: steelblue;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+	margin: 0;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	font-size: inherit;
+	outline: none;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+.square {
+	width: 12.5em;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+.wrong_square {
+	display: flex;
+	color: red;
+	font-size: 10em;
+	text-align: center;
+	width: 1.25em;
+	height: 1em;
+}
+
+#scoredisplay {
+	position: absolute;
+	top: 140px;
+	left: 50px;
+	color: mediumspringgreen;
+	font-size: 5em;
+	font-weight: bolder;
+	text-shadow: 3px 3px 2px royalblue, 4px 4px 5px orange, 6px 6px 6px deeppink;
+}
+
+#score {
+	position: relative;
+	top: -30px;
+	display: block;
+	font-size: 2em;
+}
